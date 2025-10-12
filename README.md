@@ -57,7 +57,7 @@ The following steps set up the environment required to run all Jupyter notebooks
 | `dev.txt` | The **development (validation) set** used for hyperparameter tuning. |
 | `Data Exploration.ipynb` | Notebook for initial data visualization, spatial filtering, and temporal checks. |
 | `EQrates.ipynb`, `AddFeaturesToEQs.ipynb` | Notebooks dedicated to **Feature Engineering**, primarily the calculation and scaling of earthquake rate features (Daily, Weekly, Monthly) and the Time-to-Eruption label. |
-| `DEEP PEEVED.ipynb` | Notebook implementing the **Neural Network** and possibly the final consolidated testing of models. |
+| `DEEP.ipynb` | Notebook implementing the **Neural Network** and possibly the final consolidated testing of models. |
 | `requirements.txt` | Python dependencies (e.g., scikit-learn, pandas, numpy, PyTorch). |
 
 ## Workflow Overview
@@ -68,7 +68,7 @@ To reproduce the project results, follow the notebooks sequentially:
 
 2. **Feature Engineering:** Execute `AddFeaturesToEQs.ipynb` and `EQrates.ipynb` to calculate **earthquake rates**, generate the **Time-to-Eruption label**, and perform feature **scaling** (standardization).
 
-3. **Model Training and Tuning:** Utilize the remaining notebooks (e.g., `DEEP PEEVED.ipynb`, `Random_forest.ipynb`) to:
+3. **Model Training and Tuning:** Utilize the remaining notebooks (e.g., `DEEP.ipynb`, `Random_forest.ipynb`) to:
    * Train and tune all four models: Logistic Regression, K-Means Clustering, Random Forest, and Neural Network.
    * Tune hyperparameters (e.g., Random Forest Max Depth) using the **development set**.
 
