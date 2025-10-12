@@ -45,7 +45,7 @@ This repository contains code, data, and notebooks for machine learning and stat
 
    This repository contains the UE23CS352A mini-project for machine learning analysis of volcanic earthquakes and eruptions (Puu Oo / Kilauea region). It includes data, notebooks, utility code, and the required deliverables (one-page write-up and slides).
 
-   > Problem statement: [Paste a 1–2 sentence problem description here]
+   > Problem statement: Use earthquake catalog features (location, depth, magnitude and short-term earthquake rates) to predict whether Kilauea is erupting (classification) and to forecast time-to-eruption (regression) using machine learning methods such as logistic regression, random forests, k-means clustering and neural networks.
 
    ## Quick status
 
