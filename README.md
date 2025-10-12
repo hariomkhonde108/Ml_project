@@ -1,20 +1,3 @@
-# Machine Learning Project - Solubility Prediction
-
-## Overview
-This project predicts the solubility (logS) of chemical compounds using machine learning. By leveraging molecular descriptors and regression models, the project aims to offer insights into compound solubility for research and development purposes.
-
-## Features
-- Loads and processes a dataset directly from a GitHub repository.
-- Prepares data for model training with proper cleaning and formatting.
-- Splits data into training and testing sets.
-- Implements regression models (Linear Regression and Random Forest) for predictions.
-- Visualizes predicted results against experimental values.
-
-## Tech Stack
-- Python
-- Pandas
-- Scikit-learn
-
 # PEEVED: Earthquake & Eruption ML Analysis
 ## Overview
 
