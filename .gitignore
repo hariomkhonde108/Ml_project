@@ -1,0 +1,122 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+test-results/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, consider committing them.
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582; used by e.g. python-local
+__pypackages__/
+
+# pytest
+.cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Dataset files (uncomment and customize if you want to keep datasets out of git)
+# data/
+# *.csv
+# *.h5
+# *.npy
+
+# Notebook checkpoints and outputs (if you prefer to keep notebooks clean)
+# .ipynb_checkpoints
+
+# Large file storage (if using Git LFS). You can run: git lfs track "*.csv"
+# .gitattributes
+
+# Optional: lockfiles for package managers
+poetry.lock
+
+# End of .gitignore# IDE and editor files
+.idea/
+.vscode/
+
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+._.DS_Store
+
+# Virtual environments
+venv/
+.venv/
+env/
+.nenv/
+nenv/
