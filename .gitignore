@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+venv/
 build/
 develop-eggs/
 dist/
@@ -89,6 +90,8 @@ Desktop.ini
 # *.csv
 # *.h5
 # *.npy
+# common spreadsheet formats
+# *.xlsx
 
 # Notebook checkpoints and outputs (if you prefer to keep notebooks clean)
 # .ipynb_checkpoints
